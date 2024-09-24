@@ -1,0 +1,73 @@
+
+.ql-editor p{
+    font-size: 1.5em !important;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    outline: none;
+
+}
+.text-editor{
+    margin: 50px auto;
+}
+
+.title-input{
+    width: 100%;
+    height: 60px;
+    border: none;
+    font-size: 2em;
+    overflow: hidden;
+    outline: none;
+    margin-bottom: 20px;
+    resize: horizontal;
+    padding-left: 30px;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+
+}
+.editor{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 90%;
+   
+}
+.publish-container{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+    margin-top:10px;
+}
+
+.article-publish{
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(184, 0, 184);
+    width: 90px;
+    height: 34px;
+    color: #ffff;
+    border-radius: 17px;
+    font-size: 0.9em;
+
+}
+.article-publish:hover{
+    background-color: rgb(126, 0, 126);
+}
+
+
+@media (max-width:790px) {
+
+    .title-input{
+        max-width: 100%;
+        height:40px;
+        border: none;
+        font-size: 1.5em;
+        font-weight: 600;
+        padding-bottom: 10px;
+        overflow: hidden;
+        outline: none;  
+        padding-left: 20px;
+          
+    }
+}
+
+    
